@@ -1,0 +1,14 @@
+{
+  "name": "simple-deep-equal",
+  "version": "1.0.0",
+  "description": "Vastly simplified deep-equal",
+  "keywords": [
+    "nodejs",
+    "equal",
+    "deep"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/Supinic/simple-deep-equal",
+  "author": "Supinic <supinic@protonmail.com>",
+  "license": "MIT"
+}
