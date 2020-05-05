@@ -8,6 +8,7 @@
     "deep"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/Supinic/simple-deep-equal",
   "author": "Supinic <supinic@protonmail.com>",
   "license": "MIT"
