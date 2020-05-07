@@ -1,4 +1,4 @@
-module.exports = (one, two) => {
+const deepEqual = (one, two) => {
 	if (one === two) {
 		return true;
 	}
@@ -14,6 +14,7 @@ module.exports = (one, two) => {
 		for (const key of keys1) {
 			const equivalent = keys2.findIndex(i => i === key);
 			if (equivalent === -1) {
+				return false;
 				return false;
 			}
 		}
@@ -59,3 +60,5 @@ module.exports = (one, two) => {
 		return false;
 	}
 };
+
+module.exports = deepEqual;
